@@ -1,0 +1,23 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "file-manager",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurnick013/file-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gurnick013/file-manager/issues"
+  },
+  "homepage": "https://github.com/Gurnick013/file-manager#readme",
+  "dependencies": {
+    "process": "^0.11.10"
+  }
+}
