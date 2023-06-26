@@ -1,5 +1,8 @@
-const user = process.argv[2];
-const userName = user && user.startsWith('--username=') ? user.replace('--username=', '') : 'visitor';
+const userArg= process.argv[2];
+const userParams = process.argv[3];
+const userName = userArg && userArg.startsWith('--') && userParams && userParams.startsWith('--username=')
+    ? userParams.replace('--username=', '')
+    : 'visitor';
 
 export const startManager = () => {
   console.log(`Welcome to the File Manager, ${userName}!`);
